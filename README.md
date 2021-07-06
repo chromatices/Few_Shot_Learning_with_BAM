@@ -8,11 +8,11 @@ HoHyeun Hwang : hhhwang94@naver.com
 JuHee Han : fgtr153@ds.seoultech.ac.kr    
 Soonki Kwon : kwonrince@gmail.com
 
-&nasp;This repository is a follow-up study of the [A Closer Look at Few-shot Classification]https://arxiv.org/abs/1904.04232 (https://github.com/wyharveychen/CloserLookFewShot) and [BAM:Bottleneck Attention Module]https://arxiv.org/abs/1807.06514 (https://github.com/Jongchan/attention-module)
+This repository is a follow-up study of the [A Closer Look at Few-shot Classification]https://arxiv.org/abs/1904.04232 (https://github.com/wyharveychen/CloserLookFewShot) and [BAM:Bottleneck Attention Module]https://arxiv.org/abs/1807.06514 (https://github.com/Jongchan/attention-module)
 
 ![image](https://user-images.githubusercontent.com/56014940/124572020-4387fe00-de83-11eb-8b6a-0d39258586a4.png)
 
-&nasp;We experimented Few Shot Classification with backbone network that combine with BAM(Bottleneck Attention Module). Experiment setting is same as paper 'A Closer Look At Few-shot Classification'. Difference is add another dataset 'PlantVillage' for extra experiment on cross domain and 5-shot, 1-shot. Accuracy between 'with BAM models' and 'without BAM models', it does not make dramatical difference. But mostly on 1-shot and cross domain, 'with BAM models' has little bit increase accuracy.
+We experimented Few Shot Classification with backbone network that combine with BAM(Bottleneck Attention Module). Experiment setting is same as paper 'A Closer Look At Few-shot Classification'. Difference is add another dataset 'PlantVillage' for extra experiment on cross domain and 5-shot, 1-shot. Accuracy between 'with BAM models' and 'without BAM models', it does not make dramatical difference. But mostly on 1-shot and cross domain, 'with BAM models' has little bit increase accuracy.
 
 
 ## Requirements    

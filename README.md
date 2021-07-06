@@ -56,10 +56,16 @@ python test.py --dataset {CUB|miniImagenet|plant|} --model [Conv4|Conv6|ResNet10
 ------------
 
 You can check training result file on the directory 
-```./result/checkpoints/[Datasetname]/[BAM_true|BAM_false]```
+```
+./result/checkpoints/[Datasetname]/[BAM_true|BAM_false]
+```
 
 Feature files directory is 
-```./result/features/[Datasetname]/[BAM_true|BAM_false]```
+```
+./result/features/[Datasetname]/[BAM_true|BAM_false]
+```
+
+
 -----------    
 
 

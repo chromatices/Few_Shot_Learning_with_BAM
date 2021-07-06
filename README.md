@@ -35,6 +35,9 @@ Soonki Kwon : kwonrince@gmail.com
 ---------------    
 ## How to Use    
 -----------------    
+
+You should make json file or csv file for each datasets. Use 
+
  Using argparse, you can your experiment control easily. Check the file io_utils.py
 ```
  # Training
@@ -56,14 +59,10 @@ python test.py --dataset {CUB|miniImagenet|plant|} --model [Conv4|Conv6|ResNet10
 ------------
 
 You can check training result file on the directory 
-```
-./result/checkpoints/[Datasetname]/[BAM_true|BAM_false]
-```
+`./result/checkpoints/[Datasetname]/[BAM_true|BAM_false]`
 
 Feature files directory is 
-```
-./result/features/[Datasetname]/[BAM_true|BAM_false]
-```
+`./result/features/[Datasetname]/[BAM_true|BAM_false]`
 
 
 -----------    

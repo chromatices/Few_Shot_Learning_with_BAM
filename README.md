@@ -36,22 +36,29 @@ Soonki Kwon : kwonrince@gmail.com
 ## How to Use    
 -----------------    
 
-You should make json file or csv file for each datasets. Use 
+You should make json file or csv file for each datasets. Use write filelist python file each dataset.
+
+#####Example
+
+```
+cd ./filelists/CUB
+python write_CUB_filelist.py
+```
 
  Using argparse, you can your experiment control easily. Check the file io_utils.py
 ```
  # Training
-python train.py --dataset {CUB|miniImagenet|plant|} --model [Conv4|Conv6|ResNet10|ResNet18|ResNet34] --method [baseline|baseline++|protonet|matchingnet|relationnet|maml] --bam [true|false] [--OPTIONARG]
+python train.py --dataset [CUB|miniImagenet|plant|] --model [Conv4|Conv6|ResNet10|ResNet18|ResNet34] --method [baseline|baseline++|protonet|matchingnet|relationnet|maml] --bam [true|false] [--OPTIONARG]
 ```
 
 ``` 
- ## Extract Features with bam(maml doesn't need to save feature)
-python save_features.py --dataset {CUB|miniImagenet|plant|} --model [Conv4|Conv6|ResNet10|ResNet18|ResNet34] --method [baseline|baseline++|protonet|matchingnet|relationnet] --bam [true|false] [--OPTIONARG]
+ ## Extract Features with bam(maml doesn't supposed to save feature)
+python save_features.py --dataset [CUB|miniImagenet|plant|] --model [Conv4|Conv6|ResNet10|ResNet18|ResNet34] --method [baseline|baseline++|protonet|matchingnet|relationnet] --bam [true|false] [--OPTIONARG]
 ```
 
 ```
  ### Testing
-python test.py --dataset {CUB|miniImagenet|plant|} --model [Conv4|Conv6|ResNet10|ResNet18|ResNet34] --method [baseline|baseline++|protonet|matchingnet|relationnet|maml] --bam [true|false] [--OPTIONARG]
+python test.py --dataset [CUB|miniImagenet|plant|] --model [Conv4|Conv6|ResNet10|ResNet18|ResNet34] --method [baseline|baseline++|protonet|matchingnet|relationnet|maml] --bam [true|false] [--OPTIONARG]
  ```
 --------------    
 
